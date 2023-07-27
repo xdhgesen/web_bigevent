@@ -61,7 +61,7 @@ function renderAvatar(user) {
         $('.layui-nav-img')
             .attr('src', user.user_pic)
             .show()
-        $('.taxt-avatar').hide()
+        $('.text-avatar').hide()
     } else {
         //3.2渲染文本头像
         $('.layui-nav-img').hide()
